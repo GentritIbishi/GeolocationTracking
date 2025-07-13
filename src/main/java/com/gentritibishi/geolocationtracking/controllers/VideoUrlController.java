@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/video-url")
-@CrossOrigin(origins = "*")
 public class VideoUrlController {
 
     @Autowired
